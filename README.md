@@ -1,4 +1,4 @@
-[![View on GitHub Pages](https://img.shields.io/badge/View-GitHub%20Pages-blue?logo=github)](https://irreligious86.github.io/fpv-drone/)
+[![View on GitHub Pages](https://img.shields.io/badge/View-GitHub%20Pages-blue?logo=github)](https://irreligious86.github.io/FPV_and_Mavic/)
 
 
 # FPV Drone Checklist

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Інструкція FPV</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="glow-text">Інструкція FPV</h1>
+            <p class="subtitle">Підготовка до запуску FPV-дрона та Mavic</p>
+            <div class="download-buttons">
+                <a href="Check-list_FPV+retrik.md" download class="download-btn md-btn" target="_blank" rel="noopener noreferrer">
+                    <i class="fas fa-code"></i> MD
+                </a>
+                <a href="Check-list_FPV+retrik.docx" download class="download-btn docx-btn" target="_blank" rel="noopener noreferrer">
+                    <i class="fas fa-file-word"></i> DOCX
+                </a>
+                <a href="Check-list_FPV+retrik.pdf" download class="download-btn pdf-btn" target="_blank" rel="noopener noreferrer">
+                    <i class="fas fa-file-pdf"></i> PDF
+                </a>
+            </div>
+        </header>
+
+        <main class="main-content" id="contentToPdf">
+            <div class="instruction-section">
+                <div class="section-header">
+                    <i class="fas fa-tools"></i>
+                    <h2>1. Підготовка всіх необхідних засобів для комунікації</h2>
+                </div>
+                <ul class="instruction-list">
+                    <li>Планшет зі стрімами в Дельті – переконатися, що сесія акаунту активна.</li>
+                    <li>Планшет з мобільним застосунком Вежа – під'єднати до наземної станції, переконатися у готовності до трансляції з FPV-дрона, за потреби перезавантажити.</li>
+                    <li>Планшет з Кропивою – перевірити вхід по паролю і підготувати координати цілі.</li>
+                    <li>Усі необхідні ефіри в Google Meet – відкрити заздалегідь.</li>
+                </ul>
+            </div>
+
+            <div class="instruction-section">
+                <div class="section-header">
+                    <i class="fas fa-wifi"></i>
+                    <h2>2. Перевірка наземної станції FPV</h2>
+                </div>
+                <ul class="instruction-list">
+                    <li>Перевірити заряд акумуляторів для:
+                        <ul class="nested-list">
+                            <li>FPV-окулярів;</li>
+                            <li>пульта;</li>
+                            <li>виносного блоку антен;</li>
+                            <li>монітора.</li>
+                        </ul>
+                    </li>
+                    <li>Увімкнути виносну антену, монітор, окуляри.</li>
+                    <li>Перевірити наявність карти пам'яті в окулярах.</li>
+                    <li>Увімкнути FPV-пульт, дотримуючись наступних заходів безпеки:
+                        <ul class="nested-list">
+                            <li>Уточнити у сапера тип плати ініціації на дроні.</li>
+                            <li class="warning">❗ Тумблери пульта повинні бути в мінімальному положенні, окрім випадку, коли плата інвертована – тоді тумблер, призначений на ініціацію, має бути в верхньому положенні.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="instruction-section">
+                <div class="section-header">
+                    <i class="fas fa-helicopter"></i>
+                    <h2>3. Підготовка Mavic</h2>
+                </div>
+                <ul class="instruction-list">
+                    <li>Увімкнути виносну антену Alientech безпосередньо кнопкою.</li>
+                    <li>Перевірити заряд та роботоздатність.</li>
+                    <li>Перевірити надійність підключення ВЧ-кабелів.</li>
+                    <li>Під'єднати додатковий змінний акумулятор (Li-Ion) до кабелю живлення Alientech:
+                        <ul class="nested-list">
+                            <li>Переконатися, що акумулятор заряджений.</li>
+                        </ul>
+                    </li>
+                    <li>Увімкнути пульт Mavic.</li>
+                    <li>Увімкнути Mavic поруч з пультом (щоб не бігати, якщо потрібно перебіндити).</li>
+                    <li>На пульті:
+                        <ul class="nested-list">
+                            <li>Примусово перемкнути режим на 2.4GHz.</li>
+                            <li>Перевірити, що не відбувається автоматичне перемикання назад.</li>
+                        </ul>
+                    </li>
+                    <li>Перевірити наявність повідомлень:
+                        <ul class="nested-list">
+                            <li>Чи потрібен повторний бінд.</li>
+                            <li>Чи немає критичних помилок, що унеможливлюють зліт.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="instruction-section">
+                <div class="section-header">
+                    <i class="fas fa-broadcast-tower"></i>
+                    <h2>4. Перевірка ретранслятора</h2>
+                </div>
+                <ul class="instruction-list">
+                    <li>Перевірити, чи відбувся бінд приймача ExpressLRS з передавачем:
+                        <ul class="nested-list">
+                            <li>Світлодіод на приймачі має світитися постійно.</li>
+                        </ul>
+                    </li>
+                    <li>Перевірити рівень потужності відеопередавача 1.2GHz:
+                        <ul class="nested-list">
+                            <li>Переконатися, що увімкнено не PIT-Mode, а мінімальний рівень потужності (зазвичай другий світлодіод).</li>
+                        </ul>
+                    </li>
+                    <li>Перевірити канал на VTX – має співпадати з VRX на наземній станції.</li>
+                    <li>Перевірити вибраний вхід антени на VRX:
+                        <ul class="nested-list">
+                            <li>Має бути вибрано той, де фізично підключена антена (A або B).</li>
+                        </ul>
+                    </li>
+                    <li>Якщо неможливо вимкнути режим Divercity, накрутити заглушку 50 Ом на вільний SMA-роз'єм.</li>
+                </ul>
+            </div>
+
+            <div class="instruction-section">
+                <div class="section-header">
+                    <i class="fas fa-plug"></i>
+                    <h2>5. Підключення FPV-дрона</h2>
+                </div>
+                <ul class="instruction-list">
+                    <li>Підійти з увімкненим Mavic до споттера.</li>
+                    <li>Повідомити про готовність.</li>
+                    <li>Очікувати в зоні видимості виносних антен.</li>
+                    <li>Споттер вмикає FPV-дрон.</li>
+                    <li>Перевірити зображення через монітор:
+                        <ul class="nested-list">
+                            <li>Має бути зображення та рівень LQ.</li>
+                        </ul>
+                    </li>
+                    <li>Встановити обидва дрони на точку зльоту.</li>
+                    <li>Запуск двигунів Mavic та зліт – тільки після повернення споттера в бліндаж.</li>
+                    <li>Повторно перевірити 2.4GHz на Mavic.</li>
+                </ul>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>© 2024 FPV Checklist | Безпечних польотів!</p>
+            <a href="mailto:irreligious86@gmail.com?subject=FPV%20Checklist%20Feedback" class="footer-email" target="_blank" rel="noopener noreferrer">
+                <i class="fas fa-envelope"></i> irreligious86@gmail.com
+            </a>
+        </footer>
+    </div>
+    <div class="radio-waves"></div>
+    <script src="script.js"></script>
+</body>
+</html> 

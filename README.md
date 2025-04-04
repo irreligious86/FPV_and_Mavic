@@ -1,3 +1,6 @@
+[![View on GitHub Pages](https://img.shields.io/badge/View-GitHub%20Pages-blue?logo=github)](https://irreligious86.github.io/fpv-drone/)
+
+
 # FPV Drone Checklist
 
 Интерактивный чек-лист для FPV дронов с ретранслятором. Веб-приложение предоставляет удобный интерфейс для проверки всего необходимого оборудования и настроек перед полетом.
